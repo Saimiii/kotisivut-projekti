@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+body{
+    background-color:#f6f5f5;
+    margin:0px;
+    padding:0px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+section{
+    width: 100%;
+    height:95vh;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    background-color: #FFFFFF;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2) ;
+    padding:0px 5%;
+}
+
+
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color:#b68844;
+    font-size:15px ;
+    font-weight:700 ;
+
+}
+
+
+.logo{
+    font-family: RoadTest;
+    color:#000000;
+    font-size: 22px;
+
+}
+
+.active{
+    color:#2d2a2a;
+    font-weight: bold;
+}
+.big-text
+{
+    font-size: 52px;
+    margin: 20px 0;
+    color: #779275;
+}
+.medium-text
+{
+    font-size: 30px;
+    margin: 20px 0;
+    color: #2d2a2a;
+}
+
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight:bold;
+    color:#6d6d6d;
+    font-size: 22px;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing:1px ;
+    color:#1a1a1a;
+    font-size: 60px;
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    color:#403e3e;
+    font-size:30px;
+    line-height: 30px;
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+.teksti-container button{
+    width:130px;
+    height:42px;
+    border-radius:10px; 
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+
+}
+
+
+.minusta-container{
+    width: 80%;
+    height: 330px;;
+    background-color: #809671;
+    border-radius: 20px;
+    font-family: calibri;
+    font-size: 20px;
+    outline: none;
+    margin: 0px 10px;
+    box-shadow: 2åx 2px 12px rgba(0,0,0,0.2);
+}
+
+
+p1{
+    color: #eef1d7;
+    font-family: calibri;
+    font-size: 20px;
+    position: absolute;
+    left: 13%;
+    top: 105%;
+    transform: translate(-13%, -105%);
+ 
+}
+
+p2{
+    color: #eef1d7;
+    font-family: calibri;
+    font-size: 20px;
+    position: absolute;
+    left: 13%;
+    top: 110%;
+    transform: translate(-13%, -110%);
+}
+.cvbtn{
+  background-color: #b68844;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  height: auto;
+  left: -500%;
+  top: -100%;
+  transform: translate(500%, 100%);
+}
+
+/* Tummempi taustaväri kun hiiri on nappulan kohdalla*/
+.cvbtn:hover {
+  background-color: #a06712;
+}
+
+.nana{
+    
+    max-width: 100%;
+    height: auto;
+
+}
+
+.kuva{
+   position: absolute; 
+   height: auto;
+   left: 100%;
+   top: 0%;
+   transform: translate(-100%, -0%);
+
+
+
+}
