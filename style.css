@@ -40,8 +40,9 @@ nav ul li a{
     color:#b68844;
     font-size:15px ;
     font-weight:700 ;
-
+    
 }
+
 
 
 .logo{
@@ -111,7 +112,7 @@ nav ul li a{
 
 
 .minusta-container{
-    width: 80%;
+    width: 90%;
     height: 330px;;
     background-color: #809671;
     border-radius: 20px;
@@ -126,7 +127,7 @@ nav ul li a{
 p1{
     color: #eef1d7;
     font-family: calibri;
-    font-size: 20px;
+    font-size: 2vw;
     position: absolute;
     left: 13%;
     top: 105%;
@@ -137,11 +138,17 @@ p1{
 p2{
     color: #eef1d7;
     font-family: calibri;
-    font-size: 20px;
+    font-size: 2vw;
     position: absolute;
     left: 13%;
-    top: 110%;
-    transform: translate(-13%, -110%);
+    top: 115%;
+    transform: translate(-13%, -115%);
+}
+.nana{
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+
 }
 .cvbtn{
   background-color: #b68844;
@@ -152,8 +159,8 @@ p2{
   font-size: 20px;
   height: auto;
   left: -500%;
-  top: -100%;
-  transform: translate(500%, 100%);
+  top: -1000%;
+  transform: translate(500%, 1000%);
 }
 
 /* Tummempi taustaväri kun hiiri on nappulan kohdalla*/
@@ -161,15 +168,25 @@ p2{
   background-color: #a06712;
 }
 
-.nana{
-    
-    max-width: 100%;
+.gitbtn{
+    background-color: #b68844;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
     height: auto;
-
+    left: 50%;
+    top: -1000%;
+    transform: translate(-50%, 1000%);
+}
+.gitbtn:hover {
+    background-color: #a06712
 }
 
+
 .kuva{
-   position: absolute; 
+   position: absolute;
    height: auto;
    left: 100%;
    top: 0%;
